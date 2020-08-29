@@ -6,7 +6,7 @@ import CourseList from '../CourseList/CourseList';
 import CourseReview from '../CourseReview/CourseReview';
 const CourseContainer = () => {
     // all course pass
-    const [course, setCourse] = useState(fakeData)
+    const [course] = useState(fakeData)
 
     // enroll course handler
     const [enroll, setEnroll] = useState([])
